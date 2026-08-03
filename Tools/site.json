@@ -1,0 +1,155 @@
+{
+  "app": {
+    "slug": "senti",
+    "display": "senti",
+    "summary": "Mirror an Android phone on the Mac, over USB",
+    "accent": "#7FBCE6",
+    "tagline": "Android, on your Mac",
+    "headline": [
+      "Plug it in.",
+      "Press mirror."
+    ],
+    "lede": "Mirror an Android phone on the Mac over USB. Click the menu-bar icon, press Mirror — no Terminal, no Homebrew, nothing to install.",
+    "meta": "macOS 14+ · universal · free & open source",
+    "nav": [
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Install",
+        "href": "#install"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/smrazar/senti"
+      }
+    ],
+    "cta": [
+      {
+        "label": "Install",
+        "href": "#install"
+      },
+      {
+        "label": "View source",
+        "href": "https://github.com/smrazar/senti"
+      }
+    ],
+    "marquee": [
+      "USB MIRRORING",
+      "SCRCPY INSIDE",
+      "ADB INSIDE",
+      "RECORD MP4",
+      "RECORD MKV",
+      "AUTO-START",
+      "GLOBAL SHORTCUT",
+      "SECOND DISPLAY"
+    ],
+    "features": [
+      {
+        "step": "01 / One click",
+        "title": "No Terminal. No Homebrew.",
+        "body": "scrcpy and adb ship inside the app and unpack themselves on first launch. Plug a phone in and a banner appears with a Mirror button on it.",
+        "shot": "img/panel.png"
+      },
+      {
+        "step": "02 / Settings that read like sentences",
+        "title": "Picture and sound, not flags.",
+        "body": "Phone screen or a new display, bitrate, resolution, audio, recording and window behaviour — written the way you would say them, not the way the command line takes them.",
+        "shot": "img/general.png"
+      },
+      {
+        "step": "03 / It remembers",
+        "title": "Your phones, by name.",
+        "body": "Rename each phone and senti remembers it. Optionally start mirroring the moment a particular one connects, and open the panel from anywhere with a global keyboard shortcut.",
+        "shot": null
+      }
+    ],
+    "capabilities": {
+      "step": "What it does",
+      "title": "The whole of it.",
+      "items": [
+        {
+          "name": "One-click mirror",
+          "sub": "any USB phone"
+        },
+        {
+          "name": "scrcpy + adb",
+          "sub": "bundled inside"
+        },
+        {
+          "name": "Record",
+          "sub": "mp4 or mkv"
+        },
+        {
+          "name": "New display",
+          "sub": "or the phone screen"
+        },
+        {
+          "name": "Named phones",
+          "sub": "remembered"
+        },
+        {
+          "name": "Auto-start",
+          "sub": "on connect"
+        },
+        {
+          "name": "Global shortcut",
+          "sub": "opens the panel"
+        },
+        {
+          "name": "Light and dark",
+          "sub": "full support"
+        }
+      ]
+    },
+    "install": {
+      "step": "Install",
+      "title": "Three lines.",
+      "commands": [
+        "git clone https://github.com/smrazar/senti.git",
+        "cd senti",
+        "./install.sh"
+      ],
+      "note": "GPL-3.0, because scrcpy is. Everything it needs ships inside the app."
+    },
+    "colophon": "© 2026 · written in Swift, by one guy"
+  },
+  "shelf": [
+    {
+      "slug": "loupe",
+      "name": "loupe",
+      "blurb": "quick look for pro files",
+      "version": "v0.1",
+      "url": "https://smrazar.github.io/loupe/"
+    },
+    {
+      "slug": "markpad",
+      "name": "markpad",
+      "blurb": "markdown editor + quick look",
+      "version": "v1.8",
+      "url": "https://smrazar.github.io/markpad/"
+    },
+    {
+      "slug": "stow",
+      "name": "stow",
+      "blurb": "menu bar in three zones",
+      "version": "v3.8.0",
+      "url": "https://smrazar.github.io/stow/"
+    },
+    {
+      "slug": "senti",
+      "name": "senti",
+      "blurb": "mirror android over usb",
+      "version": "v1.5",
+      "url": "https://smrazar.github.io/senti/"
+    },
+    {
+      "slug": "hexad",
+      "name": "hexad",
+      "blurb": "window switcher",
+      "version": "v0.6.2",
+      "url": "https://smrazar.github.io/hexad/"
+    }
+  ]
+}
